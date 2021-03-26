@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: rgb(218, 236, 236, .2);
+    height: 350px;
+    width: 600px;
+}
+
+li {
+    padding-left:30px;
+}
+
+button {
+    padding-right: 100px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.timer {
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#hide {
+    display: none;
+}
+
+.start {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button {
+    background: none;
+    border: none;
+}
