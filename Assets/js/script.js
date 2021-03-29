@@ -79,6 +79,7 @@ answers.addEventListener("click", function(event) {
     }
   });
 
+//PRINT THE QUESTION AND THEN ANSWERS IN RANDOM ORDER//
 function printText(){
     questionNumber.textContent = "QUESTION " + Qnum;
     theQuestion.textContent = questions[index];
@@ -111,6 +112,7 @@ function nextQuestion(){
     printText();
 }
 
+//GAME OVER, CLEAR ALL ELEMENTS AND SHOW HIDDEN ONES//
 function gameOver(){
     h4.style.display = "none";
     answers.style.display = "none";
@@ -126,6 +128,7 @@ function gameOver(){
 
 }
 
+//PLAY AGAIN BUTTON//
 playAgain.addEventListener('click', function(){
     h4.style.display = "block";
     answers.style.display = "block";
@@ -139,6 +142,7 @@ playAgain.addEventListener('click', function(){
     resetVariables();
 })
 
+//SUBMIT SCORE WITH ENTER OR CLICK//
 enterScore.addEventListener('keydown', function(event){
     var index2 = 0;
     index2++;
