@@ -14,7 +14,7 @@ h3{
     margin: 0px;
 }
 h4{
-    margin-top: 20px;
+    margin: 0px;
     text-align: center;
     color: rgba(252, 250, 135, 0.2)
 }
@@ -49,6 +49,7 @@ section {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2rem;
     justify-content: center;
+    margin-top: 20px;
 }
 
 #hide {
