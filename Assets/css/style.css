@@ -1,28 +1,27 @@
 * {
     box-sizing: border-box;
 }
+body{
+    background-color: rgb(242, 250, 255)
+}
+h2{
+    margin-top: 20px;
+    color: rgba(3, 75, 75, .7);
+    font-family: tahoma;
+    text-align: center;
+}
 h3{
     margin: 0px;
 }
 h4{
-    margin: 0px;
+    margin-top: 20px;
     text-align: center;
     color: rgba(252, 250, 135, 0.2)
-}
-h2{
-    font-family: tahoma;
-    text-align: center;
 }
 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
     text-align: center;
-}
-
-h3::before {
-    content: "-5";
-    color: red;
-    display: none;
 }
 
 section {
@@ -31,16 +30,17 @@ section {
     align-items: center;
     justify-content: center;
 }
-.questionbox {
-    height:100px;
-}
 
 .card {
     background-color: #95DBE5FF;
-    box-shadow: 0px 2px 1px black;
+    box-shadow: 0px 2px 1px #339E66FF;
     border-radius: 50px;
     height: 500px;
     width: 400px;
+}
+
+.questionbox {
+    height:100px;
 }
 
 .timer {
@@ -58,6 +58,7 @@ section {
     padding-right: 50px;
     height: 350px;
 }
+
 .enterscore {
     display: none;
     margin-top: 10px;
@@ -68,25 +69,31 @@ section {
     color: rgb(0,0,0, .4)
 
 }
+
 .scoreboard{
-    padding-top: 50px;
+    padding-top: 10px;
     display: none;
     align-items: center;
     justify-content: center;
-    padding-top: 4px;
+    height: 250px;
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-bottom: 4px;
-    font-size: 18px;
+    font-size: 22px;
     background-color: rgba(173, 200, 211, 0.2);
-    line-height: 25px;
-    box-shadow: 0px 2px 1px black;
+    line-height: 28px;
+    box-shadow: 0px 2px 4px #339E66FF;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
 
 }
+
 button:hover{
     background-color: rgb(74, 170, 170, .9);
+    cursor: pointer;
 
 }
+
 button {
     box-sizing: content-box;
     background: none;
@@ -101,6 +108,15 @@ button {
     font-size: 20px;
 }
 
+.start:hover {
+    border: solid rgb(8, 131, 131, .3) 20px;
+    background-color: rgb(168, 226, 235);
+    color: rgb(255, 255, 255);
+    text-shadow: none;
+    cursor: pointer;
+    text-shadow: 0px 1px 2px black;
+}
+
 .start {
     font-size: 80px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -109,12 +125,16 @@ button {
     display: flex;
     width: 100%;
     height: 100%;
+    color: rgb(215, 241, 255);
+    border: solid rgb(8, 131, 131, .6) 30px; 
+    border-radius: 50px;
+    background-color: rgb(114, 195, 207);
 }
 
 li {
     list-style-type: none;
-
 }
+
 ol {
     height: 200px;
     padding: 0px;
@@ -135,12 +155,22 @@ input {
 }
 
 .playAgain {
-    display: none;
     margin-left: 25%;
-    width: 48%;
+    margin-right: 25%;
+    display: none;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.submit {
+    margin-left: 25%;
+    margin-right: 25%;
+    display: none;
+    width: 200px;
     justify-content: center;
     align-items: center;
 }
 .center {
     display: flex;
+    margin-bottom: 5px;
 }

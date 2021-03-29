@@ -5,17 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' href="style.css">
+    <link rel='stylesheet' href="./Assets/css/style.css">
     <title>QUIZ</title>
 </head>
 
-
 <body>
     <section>
-        <div class='card' data-gameOver="gameOver">
+        <div class='card'>
             <div class="start">
             </div>
-             <div id="hide">
+            <main id="hide">
                 <div class='questionbox'>
                     <h2 class="questionNumber"></h2>
                     <p></p>
@@ -26,29 +25,40 @@
                     <li><button class='C'></button></li>
                     <li><button class='D'></button></li>
                 </ul>
-            </div>
-            <div class="center">
-                <button class='playAgain'>Play Again?</button>
-            </div>
-            <div>
+            </main>
+
+            <mark>
                 <h4>lol</h4>
-            </div>
-            <div class='scoreboard'>
+            </mark>
+
+            <article class='scoreboard'>
                 <ol>
                     <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
                 </ol>
-            </div>
+            </article>
+
             <input class="enterscore" placeholder="Enter Name Here!" id="score">
-            <br>
-            <div>
-                <h3 class=timer></h3>
+            
+            <div class="center">
+                <button class='submit'></button>
             </div>
+
+            <div class="center">
+                <button class='playAgain'></button>
+            </div>
+
+            <time>
+                <h3 class=timer></h3>
+            </time>
 
         </div>
 
     </section>
 
-    <script src="script.js"></script>
+    <script src="./Assets/js/script.js"></script>
 </body>
 
 </html>
