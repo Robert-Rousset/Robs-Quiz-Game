@@ -1,6 +1,6 @@
 # 04 Web APIs: Code Quiz
 
-In this task I have been asked to develop a quiz game with a timer and highscores that are saved. I enjoyed this task and happy with how I solved each problem that arose. 
+In this task I have been asked to develop a quiz game with a timer and highscores that are saved. I enjoyed this task and happy am with how I solved the task independently. 
 
 I started with the Question and Answer arrays. Each of these arrays have the questions and answers in the same order so that i could use an index to cycle through them in the same order. I then started simple and made these questions appear in each of the list elements at the current index. Getting the answers to appear randomly in the list elements was a real challenge and is where I decided to start creating the timer. 
 
